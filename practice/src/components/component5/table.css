@@ -1,0 +1,19 @@
+.tblContainer{
+    text-align:center;
+    width:70%;
+    border:1px solid blue;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: bisque;
+    padding-top:1rem;
+}
+table{
+    margin:2rem auto;
+}
+thead th{
+    text-align:center;
+    color:red;
+    font-size:1.2rem;
+    font-weight:bold;
+}

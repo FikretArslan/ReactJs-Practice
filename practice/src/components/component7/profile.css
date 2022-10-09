@@ -1,0 +1,51 @@
+.container-profile{ 
+    border:1px solid rgb(128,128,128);
+    border-radius: 1rem;
+    width:90vw;
+    margin:5rem auto;
+}
+.profile{ 
+    height:35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    border-radius:1rem 1rem 0 0;
+}
+.transparent{ 
+    position:absolute;
+    background-color: rgb(255,0,0,0.445);
+    top:0;bottom:0;right:0;left:0;
+    border-radius:1rem 1rem 0 0;
+}
+.content{
+    text-align: center;
+}
+.avatar{
+    position:relative;
+    top:-50px;
+}
+.avatar img{
+    border-radius: 50%;
+    border:7px solid rgba(255,255,255,0.281);
+}
+.title{
+    position:relative;
+    top:-30px;
+}
+.title h6{ 
+    color:rgba(128,128,128,0.767);
+}
+.follow-info{ 
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:2rem;
+    font-size:1rem;
+}
+.follow-info span{ 
+    display:block;
+    color:rgba(128,128,128,0.767);
+}
+.follow-info div{ 
+    flex:1;
+}
